@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Betta FIsh</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+	<a href="{% url 'home' %}">back</a>
+	<h2>Betta Fish Facts</h2>
+	Betta fish are native to Asia, where they live in the shallow water of marshes, ponds, or slow-moving streams. Male bettas are devoted fathers who build bubble nests for their young with their mouths and fiercely protect their babies from predators. Just like us, betta fish are diurnal. That means they’re active during the day and sleep at night, requiring darkness to get a good night’s rest.
+
+	While some bettas are captured in the wild, the vast majority of those sold in the U.S. come from breeding farms in Thailand and other countries in Southeast Asia, where it’s common practice to keep them in small bottles. When it’s time to pack them for transport to the U.S., fish are haphazardly dumped into baskets covered with nets and scooped up into small plastic cups.
+
+	These sensitive fish suffer greatly in the pet trade, where they’re subjected to inadequate care from the time they’re born on breeding farms to when they’re transported to pet stores and sold.
+	<br></br>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<img src="{% static 'fishmain/img/betta_fish.jpg' %}" width="500" height="400">
+			</div>
+			<div class="col">
+				<img src="{% static 'fishmain/img/betta_fish1.jpg' %}" width="500" height="400">
+			</div>
+		</div>
+	</div>
+	<br></br>
+	<h2>What Do Bettas Eat?</h2>
+	Plant roots aren’t adequate food for betta fish. Bettas are carnivorous animals who, in nature, eat mostly insects and insect larvae. A diet consisting solely of plant roots may keep them alive for a while, but since it lacks the proper nutrients for this species, the fish eventually become sick and die.
+
+	Don’t overfeed fish. Too much uneaten food and waste material in aquarium tanks can overload them, causing ammonia and nitrite levels to become toxic. If you already have a betta or other companion fish, remember that you should provide only as much food as they can eat in about three minutes.
+	
+	<h2>Do Betta Fish Get Lonely?</h2>
+	Betta fish can experience frustration and depression. While most of them can be happy in a tank alone, their environment still needs plenty of enrichment, such as caves, plants, and room to explore. They also experience stress—especially when their fins are picked at by other noncompatible fish placed in the same tank.
+
+	<h2>Can Betta Fish Live With Other Fish?</h2>                  
+	With ample space and hiding areas, female bettas may be able to live in a peaceful group. While males will fight with other males and male gouramis (a similar-looking species), they may be able to live singly in a “community” aquarium containing certain other docile species of fish, such as Cory catfish, kuhli loaches, or guppies. They can also cohabitate with nonfish species, including snails, ghost shrimp, and frogs.
+
+	If aggression becomes an issue in any community tank, you should keep and maintain a separate, working quarantine aquarium in which individuals can be placed to avoid conflict with other fish.
+
+</body>
+</html>
